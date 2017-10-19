@@ -1,3 +1,69 @@
+body {
+    font-family: 'Proxima Nova', Georgia, sans-serif;
+}
+.bg-header{
+	width:100%;
+	height: 12px;
+	background-color: #5f8cba;
+}
+.header{
+	padding-top:30px;
+    min-height: 110px;
+}
+.header img{
+    width: 80px;
+    float: left;
+}
+.header h3{
+    margin-left: 20px;
+    float: left;
+    margin-top: 8px;
+    width: 88%;
+    font-size: 20px;
+}
+.header h4{
+    margin-left: 20px;
+    float: left;
+    width: 88%;
+    font-size: 12px;
+}
+.sem-header{
+	margin-top: 30px !important;
+}
+.sem-header h4{
+	font-size: 18px;
+}
+.table{
+    margin-bottom: 30px;
+    font-size: 12px;
+}
+.table th{
+	background-color: #4f779f;
+    color: #FFF;
+    font-weight: 500;
+    /* height: 0px; */
+    padding-left: 17px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top: none;
+}
+.table tr{
+	background: #dbdbdb;
+}
+.table td{
+    border-top: none;
+}
+.table .table-header{
+    background: #2d4359;
+    border-radius: 10px 10px 0px 0px;
+    padding-top: 10px;
+}
+
+.container{
+	width: 90%;
+	margin: auto;
+}
+
 @import http://fonts.googleapis.com/css?family=Raleway;
 /*----------------------------------------------
 CSS Settings For HTML Div ExactCenter

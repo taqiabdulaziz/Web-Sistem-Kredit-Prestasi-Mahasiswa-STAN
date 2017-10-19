@@ -36,7 +36,7 @@ if(isset($_SESSION['login_user'])){
         //Proses Login
         $rows = mysqli_num_rows($query);
         if ($rows == 1) {
-          $_SESSION['login_user']=$username; // Initializing Session
+          $_SESSION['login_user']=$password; // Initializing Session
           header("location: dashboard/profile.php");
 
           } else {
@@ -48,7 +48,7 @@ if(isset($_SESSION['login_user'])){
         $error = " ";
     }
     ?>
-    
+
 <div class="login-page">
   <div class="form">
     <form class="login-form" action="" method="post">
@@ -63,7 +63,7 @@ if(isset($_SESSION['login_user'])){
     </form>
   </div>
 </div>
-    
+
   <script src='js/jquery311.min.js'></script>
     <script  src="js/index.js"></script>
 
