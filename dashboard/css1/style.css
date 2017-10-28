@@ -1,0 +1,162 @@
+body {
+    font-family: 'Proxima Nova', Georgia, sans-serif;
+}
+.bg-header{
+	width:100%;
+	height: 12px;
+	background-color: #5f8cba;
+}
+.header{
+	padding-top:30px;
+    min-height: 110px;
+}
+.header img{
+    width: 80px;
+    float: left;
+}
+.header h3{
+    margin-left: 20px;
+    float: left;
+    margin-top: 8px;
+    width: 88%;
+    font-size: 20px;
+}
+.header h4{
+    margin-left: 20px;
+    float: left;
+    width: 88%;
+    font-size: 12px;
+}
+.sem-header{
+	margin-top: 30px !important;
+}
+.sem-header h4{
+	font-size: 18px;
+}
+.table{
+    margin-bottom: 30px;
+    font-size: 12px;
+}
+.table th{
+	background-color: #4f779f;
+    color: #FFF;
+    font-weight: 500;
+    /* height: 0px; */
+    padding-left: 17px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top: none;
+}
+.table tr{
+	background: #dbdbdb;
+}
+.table td{
+    border-top: none;
+}
+.table .table-header{
+    background: #2d4359;
+    border-radius: 10px 10px 0px 0px;
+    padding-top: 10px;
+}
+
+.container{
+	width: 90%;
+	margin: auto;
+}
+
+@import http://fonts.googleapis.com/css?family=Raleway;
+/*----------------------------------------------
+CSS Settings For HTML Div ExactCenter
+------------------------------------------------*/
+
+
+
+
+#main
+{
+	position: absolute;
+  width: 100%;
+	height: 100%;
+	text-align: center;
+  font-family:raleway;
+}
+span {
+  color:red
+}
+h2 {
+  background-color:#FEFFED;
+  text-align:center;
+  border-radius:10px 10px 0 0;
+  margin:-10px -40px;
+  padding:15px
+}
+hr {
+  border:0;
+  border-bottom:1px solid #ccc;
+  margin:10px -40px;
+  margin-bottom:30px
+}
+#login {
+/*
+	transform: translate(0, -50%);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+  width:300px;
+  border-radius:10px;
+  font-family:raleway;
+  border:2px solid #ccc;
+  padding:10px 40px 25px;
+margin: auto;
+*/
+		width:400px;
+	height:200px;
+	border:2px solid #ccc;
+	padding:10px 40px 25px;
+	border-radius:10px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -120px;
+	margin-left: -220px;
+
+
+}
+input[type=text],input[type=password] {
+  width:99.5%;
+  padding:10px;
+  margin-top:8px;
+  border:1px solid #ccc;
+  padding-left:5px;
+  font-size:16px;
+  font-family:raleway
+}
+input[type=submit] {
+  width:100%;
+  background-color:#FFBC00;
+  color:#fff;
+  border:2px solid #FFCB00;
+  padding:10px;
+  font-size:20px;
+  cursor:pointer;
+  border-radius:5px;
+  margin-bottom:15px
+}
+#profile {
+  padding:50px;
+  border:1px dashed grey;
+  font-size:20px;
+  background-color:#DCE6F7
+}
+#logout {
+  float:right;
+  padding:5px;
+  border:dashed 1px gray
+}
+a {
+  text-decoration:none;
+  color:#6495ed
+}
+i {
+  color:#6495ed
+}
